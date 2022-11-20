@@ -1,0 +1,21 @@
+{
+  "name": "sass-library",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "Basic SASS setup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel --open",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "SASS",
+    "Parcel"
+  ],
+  "author": "Jim Kernicky",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  }
+}
