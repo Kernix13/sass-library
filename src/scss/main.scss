@@ -3,6 +3,7 @@
 
 // base and layout
 @use 'base';
+@use 'breakpoints';
 
 // colors 
 @use 'colors';
@@ -12,3 +13,4 @@
 @use './components/button';
 
 // utilities (margin, padding, opacity)
+@use 'utilities';
