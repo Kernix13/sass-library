@@ -4,6 +4,7 @@
 // base and layout
 @use 'base';
 @use 'breakpoints';
+@use 'grid';
 
 // colors 
 @use 'colors';
@@ -11,6 +12,7 @@
 // components (button, card, nav)
 @use './components/card';
 @use './components/button';
+@use './components/navbar';
 
 // utilities (margin, padding, opacity)
 @use 'utilities';
